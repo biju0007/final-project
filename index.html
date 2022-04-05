@@ -1,16 +1,15 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project </title>
     <link href="css/styles.css" rel="stylesheet">
+    <title>Three Star</title>
 </head>
 <body> 
     <div class="wrapper">
-        <header>
+        <header><!--header is to get modified in css-->
             <nav>
                 <ul class="navigation-main">
                     <li class="nav1"><a href="#">Home</a></li>
@@ -18,13 +17,14 @@
                     <li class="nav2"><a href="#">Services</a></li>
                     <li class="nav2"><a href="#">Team</a></li>
                     <li class="nav2"><a href="#">Contact</a></li>
+                </ul>
             </nav>
         <form action="submit" method="GET">
-            <input type="text" name="text" class="search" searchfor="Search here!">
-            <input type="submit" name="submit" class="submit" value="Search">
+            <input type="text" name="submit" class="submit" value="Search">
+            
         </form>
         </header>
-
+<!--dividing the contents into sections-->
     <section class="connect-us">
         <h1>Welcome To Three Star Media</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore porro laboriosam eum debitis corrupti, delectus dolores non doloribus aspernatur, temporibus optio culpa! Soluta voluptatum voluptas similique assumenda, laboriosam quibusdam cum!</p>
@@ -75,10 +75,11 @@
     </section>
 
     <section class="our-vision">
+        <h3>our vision</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem veniam omnis voluptatum. Inventore sunt facilis laborum nostrum vitae, deserunt recusandae quia accusantium harum hic ut nam eveniet ea. Quia, nam?</p>
-    <a href="#" id="learn-more">learn-more</a>
+        <a href="#" id="learn-more">learn-more</a>
     </section>
-
+<!--divisions for the ease of flex-->
     <section class="team">
         <h2>Our Team</h2>
       <div class="member-1-image">  <img src="/images/john.jpg" alt="image of john"></div>
@@ -87,10 +88,11 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quasi blanditiis ut suscipit maxime sed impedit, recusandae unde nam modi quod, ex deleniti cum? Officiis dolore quaerat beatae suscipit aspernatur!</p>
         </div>
         
-        <div class="member-2-image"> <img src="/images/bob.jpg">  </div>
+        <div class="member-2-image"> <img src="/images/bob.jpg" alt="Image of bob">  </div>
         <div class="member-2"><h3>Bob Rite</h3>
-        <h5>CFO and Co-owner</h5<br><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, tempora cupiditate. Animi laboriosam et dolores atque modi non quam. Animi ab neque voluptate et aliquid quam consectetur ipsa tenetur libero.</p>
-          </div>
+        <h5>CFO and Co-owner</h5><br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, tempora cupiditate. Animi laboriosam et dolores atque modi non quam. Animi ab neque voluptate et aliquid quam consectetur ipsa tenetur libero.</p>
+        </div>  </div>
     </section>
 
 
@@ -101,7 +103,7 @@
         <label for="yourname" class="field">Your Name</label>
         <input  id="name"type="text" name="name"><br>
         <label for="youremail" class="field">Your Email</label>
-        <input  id="email"type="text" name="email"><br>
+        <input  id="email" type="text" name="email"><br>
         <label for="message" class="field">Your Message</label>
         <input id="message" type="text" name="message"><br>
         <input type="submit" value="Send"><br><br><br>
